@@ -1,0 +1,22 @@
+import cv2
+import tensorflow as tf 
+import numpy as np
+vid = cv2.VideoCapture(1)
+model = tf.keras.models.load_model('keras_model.h5')
+while(True):
+
+fetchUser = () => {
+let theme;
+firebase
+.database ()
+.ref(" /users/" + firebase.auth () .currentUser .uid)
+on ("value", (snapshot) => {
+theme = snapshot.val () . current theme
+this.setState (flight_theme: theme === "Light" 3)
+})
+}
+
+authorNameText: {
+color. "white" fontSize: RFValue (20)
+authorNameTextLight: {
+color: "black", fontSize:
